@@ -2,7 +2,7 @@ package com.company;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExceptionDemo.notEligible {
         String name = "mom";
         char[] chars = name.toCharArray();
         System.out.println(chars);
@@ -19,5 +19,12 @@ public class Main {
         } else {
             System.out.println("it's not a palindrome string");
         }
+
+/*
+        #################### Object made for testing Exception ##############################
+*/
+        ExceptionDemo demo = new ExceptionDemo();
+        demo.checkEligibility(30,55);
+
     }
 }
