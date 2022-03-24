@@ -2,7 +2,7 @@ package com.company;
 
 public class Main {
 
-    public static void main(String[] args) throws ExceptionDemo.notEligible {
+    public static void main(String[] args)  {
         String name = "mom";
         char[] chars = name.toCharArray();
         System.out.println(chars);
@@ -24,7 +24,11 @@ public class Main {
         #################### Object made for testing Exception ##############################
 */
         ExceptionDemo demo = new ExceptionDemo();
-        demo.checkEligibility(30,55);
+        try {
+            demo.checkEligibility(30,55);
+        } catch (ExceptionDemo.notEligible e) {
+            e.printStackTrace();
+        }
 
     }
 }
