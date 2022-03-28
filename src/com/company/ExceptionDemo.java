@@ -1,5 +1,4 @@
 package com.company;
-
 public class ExceptionDemo {
 public void checkEligibility(int age, int weight) throws notEligible {
         if (age > 18 && weight > 50) {
