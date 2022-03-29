@@ -14,6 +14,9 @@ public class Collect {
         List list1 = new ArrayList<String>();
         list1.add("Str");
         list1.add(2);
+        System.out.println(list1);
+        list1.clear();
+        System.out.println(list1);
 
 
     }
