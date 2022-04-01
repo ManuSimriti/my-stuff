@@ -1,23 +1,27 @@
 package com.company;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
 
 public class Collect {
     public static void main(String[] args) {
-        List<String> list = new ArrayList();
-        list.add("manu");
-        list.add("alisha");
-        list.add("yukta");
-        list.add("Gautam");
-        List list1 = new ArrayList<String>();
-        list1.add("Str");
-        list1.add(2);
-        System.out.println(list1);
-        list1.clear();
-        System.out.println(list1);
-
+        Queue<Integer> list = new PriorityQueue<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        System.out.println(list);
+        list.add(4);
+        list.add(5);
+        list.add(6);
+        System.out.println(list);
+        System.out.println(list.peek());
+        list.poll();
+        System.out.println(list);
+        System.out.println(list.peek());
+        list.poll();
+        System.out.println(list);
+        System.out.println(list.peek());
+        list.poll();
+        System.out.println(list);
 
     }
 }

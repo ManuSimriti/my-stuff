@@ -5,6 +5,22 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args)  {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
         String name = "mom";
         char[] chars = name.toCharArray();
         System.out.println(chars);
@@ -22,15 +38,18 @@ public class Main {
             System.out.println("it's not a palindrome string");
         }
 
+*/
 /*
         #################### Object made for testing Exception ##############################
-*/
+*//*
+
         ExceptionDemo demo = new ExceptionDemo();
         try {
             demo.checkEligibility(30,55);
         } catch (ExceptionDemo.notEligible e) {
             e.printStackTrace();
         }
+*/
 
 
 
